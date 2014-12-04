@@ -1,0 +1,169 @@
+﻿.main{
+    background-color: #F5F5F5;
+    
+  }
+
+@font-face {
+    font-family: 'T-Star Pro';
+    src: url(/cnsi/fonts/T-StarPro.otf);
+   }
+
+.p {
+    font-family: 'T-Star Pro', sans-serif; 
+    font-size: 19px; /* Размер шрифта в пунктах */ 
+    
+   }
+
+.p a {
+
+    color: #1c66aa; /* Цвет текста */
+    text-decoration: none;
+    border-bottom: 1px solid rgba(28,102,170,0.3);
+    margin-left: 25px;
+    
+   }
+
+.p a:hover {
+    color: #a42f31;
+    border-bottom: 1px solid #a42f31; /* Цвет текста активного пункта */
+   }
+  
+
+
+.h {
+    font-family:'T-Star Pro', Verdana; 
+    font-size: 40px; /* Размер шрифта в пунктах */ 
+    text-align: center;
+    text-shadow: 0px 5px 5px rgba(0,0,0,0.1),
+                 10px 10px 5px rgba(0,0,0,0.05),
+                 -10px 10px 5px rgba(0,0,0,0.05);
+    
+
+   }
+
+.hr {
+font: 24px/30px 'T-Star Pro',sans-serif;
+text-transform: uppercase;
+color: #222;
+position: relative;
+overflow: hidden;
+text-align: center;
+margin: 0 0 .5em;
+}
+
+.text_header {
+    font-family:'T-Star Pro', Verdana; 
+    font-size: 19px; /* Размер шрифта в пунктах */ 
+    text-align: center;
+   }
+
+
+
+.hr > span {
+ display: inline-block;
+ margin: 0 .4em;
+}
+.hr > span:before,
+.hr > span:after {
+ content: '';
+ position: absolute;
+ width: 100%;
+ border-top: 3px solid #222;
+ margin-top: .6em;
+}
+.hr > span:before {
+ margin-left: -102%;
+}
+.hr > span:after {
+ margin-left: 2%;
+}
+
+
+.brighten img {
+-webkit-filter: brightness(100%);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+box-shadow: 2px 3px 10px #6E6E6E;
+margin: 9px;
+border: 1px;
+float :center;
+border-color: white;
+}
+.brighten img:hover {
+-webkit-filter: brightness(60%);
+overflow: hidden; /*Скрывает все, что не влазит в блок*/
+-webkit-box-shadow: 2px 3px 1px #6E6E6E;
+cursor: pointer;
+-moz-filter: brightness(60%);
+}
+
+.mainhref {
+    font-family: 'T-Star Pro', sans-serif; 
+    font-size: 19px; /* Размер шрифта в пунктах */ 
+    text-align: center;
+   }
+
+.mainhref a {
+
+    color: #1c66aa; /* Цвет текста */
+    text-decoration: none;
+    border-bottom: 1px solid rgba(28,102,170,0.3);
+    
+    
+   }
+
+.mainhref a:hover {
+    color: #a42f31;
+    border-bottom: 1px solid #a42f31; /* Цвет текста активного пункта */
+   }
+
+
+.text {
+    font-family: 'T-Star Pro', sans-serif; 
+    font-size: 19px; /* Размер шрифта в пунктах */ 
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    text-indent: 25px; 
+   }
+
+.text a {
+
+    color: #1c66aa; /* Цвет текста */
+    text-decoration: none;
+    border-bottom: 1px solid rgba(28,102,170,0.3);
+    margin-right: 25px;
+    
+   }
+
+.text a:hover {
+    color: #a42f31;
+    border-bottom: 1px solid #a42f31; /* Цвет текста активного пункта */
+   }
+
+
+ul {
+    margin-right: 2em; /* Если нужен отступ */
+    list-style: none;
+}
+li:before {
+    float: left;
+    margin-right: 0em; /* Сделайте сколько надо */
+    content: "\2022";
+}
+
+.td, .th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+   }
+
+.table {
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+   }
+
+ol {
+    list-style-type: decimal; /* Заглавные буквы */
+   }
